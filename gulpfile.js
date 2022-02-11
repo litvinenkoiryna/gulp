@@ -35,3 +35,15 @@ gulp.task('prefixer', function (done) {
         .pipe(dest(path.build.css));
         done();
 });
+
+// gulp.task('sass', function() {
+//     return gulp.src('scss/*.scss')
+//         .pipe(sass({errLogToConsole: true}))
+//         .pipe(postcss([autoprefixer()]))
+//         .pipe(minifycss())
+//         .pipe(gulp.dest(''))
+//         .pipe(plumber({
+//             errorHandler: onError
+//         }))
+//         .pipe(livereload(server));
+// });

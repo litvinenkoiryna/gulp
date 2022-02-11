@@ -1,0 +1,50 @@
+.header {
+  width: 100%;
+  background-image: url("../img/depositphotos_21405631-stock-photo-bright-sunset-panorama.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 258px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px red;
+  background-color: white;
+}
+.block__title {
+  background-color: darkgreen;
+}
+.block__text {
+  padding: 15px 5px;
+}
+.block__img {
+  width: 100%;
+  max-width: 1600px;
+  height: 50vw;
+  background-image: url("../img/mkjhuytghfrt.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.block__description {
+  background-color: white;
+}
+
+body {
+  margin: 0 auto;
+  background-color: cadetblue;
+  padding: 5px 5px;
+  width: 100%;
+  max-width: 1600px;
+}
+
+.block__text {
+  font-size: 30px;
+  color: darkgreen;
+}
+
+.block__title {
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

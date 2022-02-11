@@ -1,0 +1,32 @@
+.header{
+  width: 100%;
+  background-image: url('../img/depositphotos_21405631-stock-photo-bright-sunset-panorama.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 258px;
+}
+
+.block{
+  display: flex;
+  flex-direction: column;
+  border: solid 1px red;
+  background-color: white;
+ &__title{
+  background-color: darkgreen;
+}
+ &__text{
+
+   padding: 15px 5px
+ }
+  &__img{
+    width: 100%;
+    max-width: 1600px;
+    height: 50vw;
+    background-image: url("../img/mkjhuytghfrt.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  &__description{
+    background-color: white;
+  }
+}

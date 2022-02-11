@@ -28,7 +28,7 @@ gulp.task('prefixer', function (done) {
     gulp.src('*.css')
     return src(path.src.css)
               .pipe(autoprefixer({
-                  browserlist: ['last 4 versions'],
+                  browserlist: ['last 4 versions', '> 1%', 'IE 10'],
                   cascade: false
         }))
         .pipe(gulp.dest('dist'))
